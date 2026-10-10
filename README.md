@@ -17,6 +17,7 @@ A SQLite database and set of SQL queries for checking whether communities have *
 ```bash
 python generate_sample_data.py   # creates data/*.csv (made-up practice data)
 python main.py                   # builds water_health.db and prints all 5 query results
+python -m unittest discover tests  # unit tests on an in-memory database
 ```
 You don't need to `pip install` anything, because everything uses the Python standard library.
 To browse the database in VS Code, install the **SQLite Viewer** or **SQLTools + SQLite driver** extension and open `water_health.db`.
