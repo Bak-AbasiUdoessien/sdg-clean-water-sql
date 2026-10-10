@@ -1,5 +1,7 @@
 # Clean Water & Health Tracker (SDG 6 + SDG 3)
 
+[![tests](https://github.com/Bak-AbasiUdoessien/sdg-clean-water-sql/actions/workflows/tests.yml/badge.svg)](https://github.com/Bak-AbasiUdoessien/sdg-clean-water-sql/actions/workflows/tests.yml)
+
 A SQLite database and set of SQL queries for checking whether communities have **working, safe water** and whether low water access goes with more **water-borne illness**.
 
 **SDG targets covered:** 6.1 (safe drinking water for all) and 3.3 (fight water-borne diseases).
